@@ -15,7 +15,7 @@ jobs:
       - id: out
         shell: bash
         run: |
-          echo var1="Hello world"
+          var1="Hello world"
           echo "var_go=$var1" 
           echo "var_go=$var1" >> "$GITHUB_OUTPUT"
           echo "$GITHUB_OUTPUT"
